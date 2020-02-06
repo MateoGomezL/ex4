@@ -1,10 +1,11 @@
 body{
-    background-color: rgb(208, 226, 231);
-    font-family: sans-serif;
+    background-color: rgb(208, 212, 231);
+    font-family: 'Comfortaa', cursive;
     color: white;
 
     header{
-        background-color: rgb(78, 78, 167);
+        background-color: rgb(45, 45, 99);
+        width: 100vw;
 
         h1{
             margin: 0 10%;
@@ -13,6 +14,9 @@ body{
         h3{
             margin-left: 10%;
             padding-bottom: 1%;
+        }
+        p{
+            margin-left: 10%;
         }
     }
     
@@ -76,18 +80,22 @@ body{
             grid-row: 12;
         }
         .ProjetFinEtude{
+            background-color: rgb(96, 125, 189);
             grid-column: 2;
             grid-row: 7/12;
         }
         .ProjetFinEtude2{
+            background-color: rgb(96, 125, 189);
             grid-column: 5;
             grid-row: 2/6;
         }
         .prog{
+            background-color: rgb(60, 93, 131);
             grid-column: 3;
             grid-row: 8/12;
         }
         .prog2{
+            background-color: rgb(60, 93, 131);
             grid-column: 5;
             grid-row: 8/12;
         }
@@ -96,10 +104,12 @@ body{
             grid-row: 5;
         }
         .afterEffects{
+            background-color: rgb(134, 110, 173);
             grid-column: 4;
             grid-row: 7/10;
         }
         .afterEffects2{
+            background-color: rgb(134, 110, 173);
             grid-column: 6;
             grid-row: 7/10;
         }

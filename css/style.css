@@ -18,13 +18,14 @@ License: GNU General Public License v2 or later
 # Horaire
 --------------------------------------------------------------*/
 body {
-  background-color: #d0e2e7;
-  font-family: sans-serif;
+  background-color: #d0d4e7;
+  font-family: 'Comfortaa', cursive;
   color: white;
 }
 
 body header {
-  background-color: #4e4ea7;
+  background-color: #2d2d63;
+  width: 100vw;
 }
 
 body header h1 {
@@ -35,6 +36,10 @@ body header h1 {
 body header h3 {
   margin-left: 10%;
   padding-bottom: 1%;
+}
+
+body header p {
+  margin-left: 10%;
 }
 
 body #horaire {
@@ -138,6 +143,7 @@ body #horaire .dix-huit {
 }
 
 body #horaire .ProjetFinEtude {
+  background-color: #607dbd;
   -ms-grid-column: 2;
   grid-column: 2;
   -ms-grid-row: 7;
@@ -146,6 +152,7 @@ body #horaire .ProjetFinEtude {
 }
 
 body #horaire .ProjetFinEtude2 {
+  background-color: #607dbd;
   -ms-grid-column: 5;
   grid-column: 5;
   -ms-grid-row: 2;
@@ -154,6 +161,7 @@ body #horaire .ProjetFinEtude2 {
 }
 
 body #horaire .prog {
+  background-color: #3c5d83;
   -ms-grid-column: 3;
   grid-column: 3;
   -ms-grid-row: 8;
@@ -162,6 +170,7 @@ body #horaire .prog {
 }
 
 body #horaire .prog2 {
+  background-color: #3c5d83;
   -ms-grid-column: 5;
   grid-column: 5;
   -ms-grid-row: 8;
@@ -177,6 +186,7 @@ body #horaire .stage {
 }
 
 body #horaire .afterEffects {
+  background-color: #866ead;
   -ms-grid-column: 4;
   grid-column: 4;
   -ms-grid-row: 7;
@@ -185,6 +195,7 @@ body #horaire .afterEffects {
 }
 
 body #horaire .afterEffects2 {
+  background-color: #866ead;
   -ms-grid-column: 6;
   grid-column: 6;
   -ms-grid-row: 7;
