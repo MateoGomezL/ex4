@@ -20,6 +20,7 @@ License: GNU General Public License v2 or later
 body {
   background-color: #d0d4e7;
   font-family: 'Comfortaa', cursive;
+  font-size: 0.4em;
   color: white;
 }
 
@@ -208,5 +209,17 @@ body #horaire .portfolio {
   grid-column: 4;
   -ms-grid-row: 5;
   grid-row: 5;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 0.6em;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    font-size: 0.8em;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,7 @@
 body{
     background-color: rgb(208, 212, 231);
     font-family: 'Comfortaa', cursive;
+    font-size: 0.4em;
     color: white;
 
     header{
@@ -119,5 +120,15 @@ body{
         }
     }
     
+}
+@media only screen and (min-width: 768px) {
+    body{
+        font-size: 0.6em;
+    }            
+}
+@media only screen and (min-width: 992px) {
+    body{
+        font-size: 0.8em;
+    }         
 }
 
