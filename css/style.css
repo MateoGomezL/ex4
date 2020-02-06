@@ -24,7 +24,7 @@ body {
 }
 
 body header {
-  background-color: #2e2e8f;
+  background-color: #4e4ea7;
 }
 
 body header h1 {
@@ -34,19 +34,24 @@ body header h1 {
 
 body header h3 {
   margin-left: 10%;
+  padding-bottom: 1%;
 }
 
 body #horaire {
-  width: 100%;
+  width: 90vw;
   height: 80vh;
+  margin: 0 5%;
   display: -ms-inline-grid;
   display: inline-grid;
-  -ms-grid-columns: 20% 20% 20% 20% 20%;
-      grid-template-columns: 20% 20% 20% 20% 20%;
+  -ms-grid-columns: 10% (18%)[5];
+      grid-template-columns: 10% repeat(5, 18%);
+  -ms-grid-rows: 10% auto;
+      grid-template-rows: 10% auto;
 }
 
 body #horaire div {
   background-color: #4a4a64;
+  border: 2px solid #d0e2e7;
   text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
