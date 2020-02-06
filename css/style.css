@@ -53,5 +53,149 @@ body #horaire div {
   background-color: #4a4a64;
   border: 2px solid #d0e2e7;
   text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #horaire .huit {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 2;
+  grid-row: 2;
+}
+
+body #horaire .neuf {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 3;
+  grid-row: 3;
+}
+
+body #horaire .dix {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 4;
+  grid-row: 4;
+}
+
+body #horaire .onze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 5;
+  grid-row: 5;
+}
+
+body #horaire .douze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 6;
+  grid-row: 6;
+}
+
+body #horaire .treize {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 7;
+  grid-row: 7;
+}
+
+body #horaire .quatorze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 8;
+  grid-row: 8;
+}
+
+body #horaire .quinze {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 9;
+  grid-row: 9;
+}
+
+body #horaire .seize {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 10;
+  grid-row: 10;
+}
+
+body #horaire .dix-sept {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 11;
+  grid-row: 11;
+}
+
+body #horaire .dix-huit {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 12;
+  grid-row: 12;
+}
+
+body #horaire .ProjetFinEtude {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 5;
+  grid-row: 7/12;
+}
+
+body #horaire .ProjetFinEtude2 {
+  -ms-grid-column: 5;
+  grid-column: 5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 4;
+  grid-row: 2/6;
+}
+
+body #horaire .prog {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 4;
+  grid-row: 8/12;
+}
+
+body #horaire .prog2 {
+  -ms-grid-column: 5;
+  grid-column: 5;
+  -ms-grid-row: 8;
+  -ms-grid-row-span: 4;
+  grid-row: 8/12;
+}
+
+body #horaire .stage {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 5;
+  grid-row: 5;
+}
+
+body #horaire .afterEffects {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  grid-row: 7/10;
+}
+
+body #horaire .afterEffects2 {
+  -ms-grid-column: 6;
+  grid-column: 6;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  grid-row: 7/10;
+}
+
+body #horaire .portfolio {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 5;
+  grid-row: 5;
 }
 /*# sourceMappingURL=style.css.map */

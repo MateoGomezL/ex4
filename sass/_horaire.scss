@@ -28,6 +28,84 @@ body{
             background-color: rgb(74, 74, 100);
             border: 2px solid rgb(208, 226, 231);
             text-align: center;
+            display: grid;
+            align-items: center;
+        }
+        .huit{
+            grid-column: 1;
+            grid-row: 2;
+        }
+        .neuf{
+            grid-column: 1;
+            grid-row: 3;
+        }
+        .dix{
+            grid-column: 1;
+            grid-row: 4;
+        }
+        .onze{
+            grid-column: 1;
+            grid-row: 5;
+        }
+        .douze{
+            grid-column: 1;
+            grid-row: 6;
+        }
+        .treize{
+            grid-column: 1;
+            grid-row: 7;
+        }
+        .quatorze{
+            grid-column: 1;
+            grid-row: 8;
+        }
+        .quinze{
+            grid-column: 1;
+            grid-row: 9;
+        }
+        .seize{
+            grid-column: 1;
+            grid-row: 10;
+        }
+        .dix-sept{
+            grid-column: 1;
+            grid-row: 11;
+        }
+        .dix-huit{
+            grid-column: 1;
+            grid-row: 12;
+        }
+        .ProjetFinEtude{
+            grid-column: 2;
+            grid-row: 7/12;
+        }
+        .ProjetFinEtude2{
+            grid-column: 5;
+            grid-row: 2/6;
+        }
+        .prog{
+            grid-column: 3;
+            grid-row: 8/12;
+        }
+        .prog2{
+            grid-column: 5;
+            grid-row: 8/12;
+        }
+        .stage{
+            grid-column: 4;
+            grid-row: 5;
+        }
+        .afterEffects{
+            grid-column: 4;
+            grid-row: 7/10;
+        }
+        .afterEffects2{
+            grid-column: 6;
+            grid-row: 7/10;
+        }
+        .portfolio{
+            grid-column: 4;
+            grid-row: 5;
         }
     }
     
