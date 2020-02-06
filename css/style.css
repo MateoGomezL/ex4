@@ -17,4 +17,36 @@ License: GNU General Public License v2 or later
 ----------------------------------------------------------------
 # Horaire
 --------------------------------------------------------------*/
+body {
+  background-color: #d0e2e7;
+  font-family: sans-serif;
+  color: white;
+}
+
+body header {
+  background-color: #2e2e8f;
+}
+
+body header h1 {
+  margin: 0 10%;
+  padding-top: 2%;
+}
+
+body header h3 {
+  margin-left: 10%;
+}
+
+body #horaire {
+  width: 100%;
+  height: 80vh;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: 20% 20% 20% 20% 20%;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+body #horaire div {
+  background-color: #4a4a64;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
